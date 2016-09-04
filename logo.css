@@ -1,0 +1,25 @@
+#logo-fig, .logo-fig:after{
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                display: block;
+          	}
+          	#logo-fig {
+                background-color: transparent;
+                border-top: 5px solid rgb(230,230,230);
+                border-right: 5px solid rgba(230,230,230,.0);
+                border-bottom: 5px solid rgb(230,230,230);
+                border-left: 5px solid rgb(230,230,230);
+				transform: rotate(-30deg);
+          	}
+			#logo-fig::before{
+                content: ""; 
+                display: inline-block; 
+                position: absolute; 
+                right: -0.5em; 
+                bottom: 0.5em; 
+                border-width: 0;
+                width: 1.3em; 
+                height: .4em;
+				background-color:rgb(125,196,58);
+			}                                                              
